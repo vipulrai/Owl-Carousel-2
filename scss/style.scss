@@ -1,0 +1,31 @@
+.slider{
+  width: 100%;
+  height: 200px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.thumbnail{
+  width: 25%;
+  height: 100px;
+  float: left;
+  background:gray;
+  
+  &.active{
+    background: blue;
+  }
+  
+  &:hover{
+    background: blue;
+  }
+  
+  a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+}
